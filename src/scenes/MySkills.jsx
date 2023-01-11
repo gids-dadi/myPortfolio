@@ -44,7 +44,7 @@ const Myskills = () => {
 
       {/* SKILLS */}
       <div className="md:flex md:justify-between mt-16 gap-32">
-        {/* LANGUAGE  */}
+        {/* LANGUAGES  */}
         <motion.div
           className="md:w-1/3 mt-10"
           initial="hidden"
