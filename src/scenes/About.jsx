@@ -1,8 +1,4 @@
-import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import person1 from "../assets/person-1.jpeg";
-import person2 from "../assets/person-2.jpeg";
-import person3 from "../assets/person-3.jpeg";
 
 const About = () => {
   return (

@@ -1,4 +1,3 @@
-import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import skillsPic from "../assets/skills-image.png";
@@ -24,7 +23,6 @@ const Myskills = () => {
           <p className="font-playfair font-semibold text-4xl mb-5">
             MY <span className="text-red-400">SKILLS</span>
           </p>
-          <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
             I am skilled in both front-end and back-end using various languages,
             framework and tools.

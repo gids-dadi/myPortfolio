@@ -1,10 +1,7 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-// import profilePic from "../assets/profile-image.png";
 import profilePic from "../assets/pic1.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-// import brush from "../assets/brush.png";
-import LineGradient from "../components/LineGradient";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Landing = ({ setSelectedPage }) => {
@@ -107,7 +104,6 @@ const Landing = ({ setSelectedPage }) => {
           <SocialMediaIcons />
         </motion.div>
       </div>
-      <LineGradient />
     </section>
   );
 };

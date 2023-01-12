@@ -7,7 +7,6 @@ import MySkills from './scenes/MySkills';
 import Projects from './scenes/Projects';
 import About from './scenes/About';
 import Contact from './scenes/Contact';
-import LineGradient from './components/LineGradient';
 import SocialMediaIcons from './components/SocialMediaIcons';
 
 function App() {
@@ -46,17 +45,13 @@ function App() {
         <About />
       </div>
 
-      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
         <MySkills />
       </div>
-      <LineGradient />
+
       <div className="w-5/6 mx-auto md:h-full">
         <Projects />
       </div>
-      {/* <LineGradient /> */}
-
-      <LineGradient />
 
       <div className="w-5/6 mx-auto  md:h-full">
         <Contact />
