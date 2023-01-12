@@ -19,34 +19,14 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-// const Project = ({ title }) => {
-// const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-gray-400 z-30 flex flex-col justify-center items-center text-center p-16 text-blue-900`;
-// const projectTitle = title.split(" ").join("_").toLowerCase();
-
-// return (
-
-// <motion.div variants={projectVariant} className="relative">
-//   <div className={overlayStyles}>
-//     <p className="text-2xl font-playfair">{title}</p>
-//     <p className="mt-7">
-//       Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-//       porttitor accumsan tincidunt.
-//     </p>
-//   </div>
-//   <img src={`${projectTitle}.jpeg`} alt={projectTitle} />
-// </motion.div>
-// );
-// };
-
 const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-gray-400 z-30 flex flex-col justify-center items-center text-center p-16 text-blue-900`;
-// const projectTitle = title.split(" ").join("_").toLowerCase();
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 pb-48 mt-24">
+    <section id="projects" className="pt-48 mt-12">
       {/* HEADINGS */}
       <motion.div
-        className="md:w-2/5 mx-auto text-center"
+        className="md:w-2/5 mx-auto"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -58,7 +38,7 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red">PRO</span>JECTS
+            <span className="text-red-500">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
@@ -66,9 +46,7 @@ const Projects = () => {
         </div>
 
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          Here, I have got a few projects, check them out and see my expertise.
         </p>
       </motion.div>
 
