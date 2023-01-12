@@ -94,7 +94,6 @@ const Projects = () => {
             </div>
             <img
               src={project_1}
-              s
               alt="projectTitle"
               className="w-full h-[350px]"
             />
@@ -126,7 +125,6 @@ const Projects = () => {
             </div>
             <img
               src={project_2}
-              s
               alt="projectTitle"
               className="w-full h-[350px]"
             />
@@ -157,7 +155,6 @@ const Projects = () => {
             </div>
             <img
               src={project_3}
-              s
               alt="projectTitle"
               className="w-full h-[350px]"
             />

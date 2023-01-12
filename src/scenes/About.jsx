@@ -31,7 +31,7 @@ const About = () => {
       {/* ABOUT */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative  max-w-[400px] h-[] flex flex-col justify-end  p-16 mt-12"
+          className="mx-auto relative  max-w-[400px] h-full flex flex-col justify-end  p-16 mt-12"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -51,7 +51,7 @@ const About = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative max-w-[400px] h-[] flex flex-col justify-end p-16 mt-48"
+          className="mx-auto relative max-w-[400px] h-full flex flex-col justify-end p-16 mt-48"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -70,7 +70,7 @@ const About = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative  max-w-[400px] h-[] flex flex-col justify-end p-16 mt-48"
+          className="mx-auto relative  max-w-[400px] h-full flex flex-col justify-end p-16 mt-48"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
