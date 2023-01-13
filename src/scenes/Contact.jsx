@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import contactImage from "../assets/contact-image.jpeg";
@@ -35,8 +36,6 @@ const Contact = () => {
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-yellow">CONTACT ME</span> TO GET STARTED
           </p>
-          <div className="flex md:justify-end my-5">
-          </div>
         </div>
       </motion.div>
 

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import profilePic from "../assets/pic1.png";

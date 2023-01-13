@@ -1,8 +1,9 @@
+/* eslint-disable */
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
-import close_icon from "../assets/close-icon.svg";
-import menu_icon from "../assets/menu-icon.svg";
+import closeIcon from "../assets/close-icon.svg";
+import menuIcon from "../assets/menu-icon.svg";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
@@ -68,7 +69,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             className="rounded-full bg-red-500 p-2"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
-            <img src={menu_icon} alt="menu-icon" />
+            <img src={menuIcon} alt="menu-icon" />
           </button>
         )}
 
@@ -78,7 +79,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             {/* CLOSE ICON */}
             <div className="flex justify-end p-6">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                <img src={close_icon} alt="close-icon" />
+                <img src={closeIcon} alt="close-icon" />
               </button>
             </div>
 

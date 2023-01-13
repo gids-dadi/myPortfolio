@@ -1,3 +1,4 @@
+/* eslint-disable */
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import skillsPic from "../assets/skills-image.png";

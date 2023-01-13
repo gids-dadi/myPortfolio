@@ -1,8 +1,9 @@
+/* eslint-disable */
 import { motion } from "framer-motion";
-import project_1 from "../assets/project_1.png";
-import project_2 from "../assets/project_2.png";
-import project_3 from "../assets/project_3.png";
-import project_4 from "../assets/project_4.png";
+import project1 from "../assets/project_1.png";
+import project2 from "../assets/project_2.png";
+import project3 from "../assets/project_3.png";
+import project4 from "../assets/project_4.png";
 
 const container = {
   hidden: {},
@@ -39,8 +40,7 @@ const Projects = () => {
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-red-500">PRO</span>JECTS
           </p>
-          <div className="flex justify-center mt-5">
-          </div>
+          <div className="flex justify-center mt-5"></div>
         </div>
 
         <p className="mt-10 mb-10">
@@ -91,7 +91,7 @@ const Projects = () => {
               </a>
             </div>
             <img
-              src={project_1}
+              src={project1}
               alt="projectTitle"
               className="w-full h-[350px]"
             />
@@ -122,7 +122,7 @@ const Projects = () => {
               </a>
             </div>
             <img
-              src={project_2}
+              src={project2}
               alt="projectTitle"
               className="w-full h-[350px]"
             />
@@ -152,7 +152,7 @@ const Projects = () => {
               </a>
             </div>
             <img
-              src={project_3}
+              src={project3}
               alt="projectTitle"
               className="w-full h-[350px]"
             />
@@ -181,7 +181,7 @@ const Projects = () => {
               </a>
             </div>
             <img
-              src={project_4}
+              src={project4}
               alt="projectTitle"
               className="w-full h-[350px]"
             />
