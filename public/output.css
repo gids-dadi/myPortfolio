@@ -665,11 +665,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .mx-2{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -980,6 +975,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-8{
+  padding: 2rem;
+}
+
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -1130,7 +1129,7 @@ html,
 body,
 #root,
 .app {
-  height: auto;
+  /* height: auto; */
   background-color: #01001c;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1319,10 +1318,6 @@ body,
 
   .md\:justify-start{
     justify-content: flex-start;
-  }
-
-  .md\:justify-end{
-    justify-content: flex-end;
   }
 
   .md\:justify-between{
