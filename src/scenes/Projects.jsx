@@ -1,9 +1,11 @@
 /* eslint-disable */
 import { motion } from "framer-motion";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import project1 from "../assets/project_1.png";
 import project2 from "../assets/project_2.png";
 import project3 from "../assets/project_3.png";
 import project4 from "../assets/project_4.png";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const container = {
   hidden: {},
@@ -23,7 +25,7 @@ const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transit
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 mt-12">
+    <section id="projects" className="flex flex-col pt-48 mt-12">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto"
@@ -49,7 +51,7 @@ const Projects = () => {
       </motion.div>
 
       {/* PROJECTS */}
-      <div className="flex justify-center h-[500px]">
+      <div className="flex  justify-center h-[500px]">
         <motion.div
           className="sm:grid sm:grid-cols-3"
           variants={container}
@@ -134,7 +136,8 @@ const Projects = () => {
               <h4 className="text-2xl font-playfair">Math-Magician</h4>
 
               <p className="mt-2 w-[350px]">
-                A web App to carryout basic math utilities.
+                This is a web app to carry out basic Math utilities including an impeded calculator and a page for random quotes about Math for fun. 
+
               </p>
               <ul className="flex mx-2">
                 <li className=" p-2 bg-blue-900 mr-2 text-white">HTML</li>
@@ -191,7 +194,28 @@ const Projects = () => {
             SMOOTH USER EXPERIENCE
           </div>
         </motion.div>
+
       </div>
+
+
+      <motion.div variants={projectVariant} className="relative ">
+        <div className="mt-52 text-center">
+         Check me out on: <SocialMediaIcons />
+        
+        Want to Reach out?
+              <AnchorLink
+            className="bg-gradient-rainblue text-blue-900 rounded-sm py-3 mr-5 px-7 font-semibold hover:bg-blue-900 hover:text-white transition duration-500 "
+            onClick={() => setSelectedPage("contact")}
+            href="#contact"
+          >
+            Contact me
+          </AnchorLink>
+          </div>
+        
+      </motion.div>
+
+      
+   
     </section>
   );
 };

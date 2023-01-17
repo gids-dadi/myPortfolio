@@ -53,10 +53,11 @@ function App() {
       <div className="w-5/6 mx-auto md:h-full">
         <Projects />
       </div>
-
+       
       <div className="w-5/6 mx-auto  md:h-full">
         <Contact />
       </div>
+
       <div className="mt-34">
         <SocialMediaIcons />
       </div>

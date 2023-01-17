@@ -5,7 +5,7 @@ const About = () => (
   <section id="about" className="pt-30 pb-16">
     {/* HEADING */}
     <motion.div
-      className="md:w-1/3 text-center md:text-left"
+      className="md:w-1/2 text-center md:text-left"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
@@ -15,15 +15,26 @@ const About = () => (
         visible: { opacity: 1, x: 0 },
       }}
     >
-      <p className="font-playfair font-semibold text-4xl  text-red-400">ABOUT ME</p>
+      <p className="font-playfair font-semibold text-4xl">ABOUT <span className="text-red-400">ME</span></p>
       <p>
         I am a Full-stack Web developer, proficient in both Front-end and
         Back-end, I&#39;m based in Abuja Nigeria&#39;s capital city.
       </p>
+<br/>
+         <p>   I&#39;ve spent much time completely immersed in remote development,
+            building everything from landing pages to using APIs. I am convinced
+            of the formula for doing work way before, not on time.
+            I am a young and ambitious graduate of Electrical and Electroics
+            Engineering (B. Eng. Electrical Engineering)
+            I am passionate about opportunity for continous learning and growth.
+            I am passionate about taking challenging projects that spur me to be
+            better.
+            </p>
+          
     </motion.div>
 
     {/* ABOUT */}
-    <div className="md:flex md:justify-between gap-8">
+    {/* <div className="md:flex md:justify-between gap-8">
       <motion.div
         className="mx-auto relative  max-w-[400px] h-full flex flex-col justify-end  p-16 mt-12"
         initial="hidden"
@@ -79,7 +90,7 @@ const About = () => (
             better.
           </p>
         </motion.div>
-      </div>
+      </div> */}
     </section>
   );
 

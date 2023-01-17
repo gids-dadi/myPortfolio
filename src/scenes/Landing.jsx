@@ -11,12 +11,12 @@ const Landing = ({ setSelectedPage }) => {
   return (
     <section
       id="home"
-      className="md:flex md:justify-between md:items-center md:h-full  py-6"
+      className="md:flex md:justify-between md:items-center md:h-full py-6 mt-12"
     >
       {/* IMAGE SECTION */}
       <div className="md:order-2 flex justify-center basis-full z-10 mt-10 md:mt-30">
         {isAboveMediumScreens ? (
-          <div className="relative z-0 ml-20 mt-10 before:absolute before:-top-20 before:-left-20  before:w-full  before:max-w-[400px] before:h-full before:border-2 before:border-blue-400 before:z-[-1]">
+          <div className="relative z-0 ml-20 mt-10 before:absolute before:-top-20 before:-left-20  before:w-full  before:max-w-[400px] before:h-full before:border-2 before:border-blue-400 before:z-[-1] ">
             <img
               src={profilePic}
               alt="Profle"
@@ -46,13 +46,13 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Hey there! I'm Gideon{" "}
+            Hey there!  I'm <br/>Gideon{" "}
             <span className="xs:relative xs:text-blue-900 xs:font-semibold z-20 before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]">
               Dadi
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-base text-center md:text-start">
+          <p className="mt-10 mb-8 ext-base text-center w-[80%] md:text-start">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
