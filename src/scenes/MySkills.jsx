@@ -29,17 +29,7 @@ const Myskills = () => {
             framework and tools.
           </p>
         </motion.div>
-
-        <div className="mt-16 md:mt:0 ">
-          {isAboveMediumScreens ? (
-            <div className="relative z-10 ml-20 before:absolute before:-top-10 before:-left-10  before:w-full  before:h-full before:border-2 before:border-blue-400 before:z-[-1]  ">
-              <img src={skillsPic} alt="Skills" className="z-10" />
-            </div>
-          ) : (
-            <img src={skillsPic} alt="Skills" className="z-10" />
-          )}
-        </div>
-      </div>
+          </div>
 
       {/* SKILLS */}
       <div className="md:flex md:justify-between mt-16 gap-32">
@@ -62,7 +52,7 @@ const Myskills = () => {
                 LANGUAGES
               </h4>
             </div>
-            <div className="w-1/2 md:w-3/4 h-12 bg-blue-400 absolute right-0 z-[-1] "></div>
+            <div className="w-1/2 md:w-3/4 h-2 bg-blue-400 absolute right-0 z-[-1] "></div>
           </div>
 
           <ul className="mt-5">
@@ -94,7 +84,7 @@ const Myskills = () => {
                 FRAMEWORK
               </h4>
             </div>
-            <div className="w-1/2 md:w-3/4 h-12 bg-red-400 absolute right-0 z-[-1] "></div>
+            <div className="w-1/2 md:w-3/4 h-2 bg-blue-400 absolute right-0 z-[-1] "></div>
           </div>
           <ul className="mt-5">
             <li>Bootstrap</li>
@@ -122,7 +112,7 @@ const Myskills = () => {
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">TOOLS</p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-12 bg-yellow-400 absolute right-0 z-[-1] "></div>
+            <div className="w-1/2 md:w-3/4 h-2 bg-blue-400 absolute right-0 z-[-1] "></div>
           </div>
           <ul className="mt-5">
             <li>Gitlab</li>

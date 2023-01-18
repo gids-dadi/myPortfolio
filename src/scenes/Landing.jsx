@@ -52,7 +52,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
 
-          <p className="mt-10 mb-8 ext-base text-center w-[80%] md:text-start">
+          <p className="mt-10 mb-8 ext-base text-justify w-[80%] md:text-start">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to

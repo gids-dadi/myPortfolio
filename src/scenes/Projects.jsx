@@ -25,7 +25,7 @@ const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transit
 
 const Projects = () => {
   return (
-    <section id="projects" className="flex flex-col pt-48 mt-12">
+    <section id="projects" className="flex flex-col  mt-12">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto"
@@ -51,7 +51,7 @@ const Projects = () => {
       </motion.div>
 
       {/* PROJECTS */}
-      <div className="flex  justify-center h-[500px]">
+      <div className="flex  justify-center md:h-[500px]">
         <motion.div
           className="sm:grid sm:grid-cols-3"
           variants={container}
@@ -61,7 +61,7 @@ const Projects = () => {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-red-500
+            className="flex justify-center text-center items-center p-10 bg-blue-900
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
@@ -83,14 +83,25 @@ const Projects = () => {
                 <li className=" p-2 bg-blue-900 mr-2 text-white">HTML</li>
                 <li className="p-2 bg-blue-900 text-white">CSS</li>
               </ul>
+              <div className="flex gap-10">
               <a
                 className="bg-blue-900 text-white mt-4 p-2"
                 href="https://gids-dadi.github.io/Spiral-Tech-Project"
                 target="_blank"
                 rel="noreferrer"
               >
+               Go Live
+              </a>
+
+              <a
+                className="bg-blue-900 text-white mt-4 p-2"
+                href="https://github.com/gids-dadi/Spiral-Tech-Project"
+                target="_blank"
+                rel="noreferrer"
+              >
                 See Project
               </a>
+              </div>
             </div>
             <img
               src={project1}
@@ -114,14 +125,26 @@ const Projects = () => {
                 <li className=" p-2 bg-blue-900 mr-2 text-white">REDUX</li>
                 <li className="p-2 bg-blue-900 text-white">CSS</li>
               </ul>
+              <div className="flex gap-10">
               <a
                 className="bg-blue-900 text-white mt-4 p-2"
                 href="https://space-travelers-hub-c.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
+                Go Live
+              </a>
+
+               <a
+                className="bg-blue-900 text-white mt-4 p-2"
+                href="https://github.com/camilevahviraki/Space-Travelers-Hub"
+                target="_blank"
+                rel="noreferrer"
+              >
                 See Project
               </a>
+              </div>
+
             </div>
             <img
               src={project2}
@@ -145,14 +168,26 @@ const Projects = () => {
                 <li className=" p-2 bg-blue-900 mr-2 text-white">JAVACSRIPT</li>
                 <li className="p-2 bg-blue-900 text-white">CSS</li>
               </ul>
+              <div className="flex gap-10">
               <a
                 className="bg-blue-900 text-white mt-4 p-2"
                 href="https://gids-math-magician.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
+              Go Live
+              </a>
+
+
+              <a
+                className="bg-blue-900 text-white mt-4 p-2"
+                href="https://github.com/gids-dadi/math-magician"
+                target="_blank"
+                rel="noreferrer"
+              >
                 See Project
               </a>
+              </div>
             </div>
             <img
               src={project3}
@@ -166,7 +201,7 @@ const Projects = () => {
               <h4 className="text-2xl font-playfair">Vehicle App</h4>
 
               <p className="mt-2 w-[350px]">
-                A web App to access information based on given parameters.
+                The vehicle App is a web App to retrieve information based on given metrics from the API.
               </p>
               <ul className="flex mx-2">
                 <li className=" p-2 bg-blue-900 mr-2 text-white">HTML</li>
@@ -174,7 +209,17 @@ const Projects = () => {
                 <li className=" p-2 bg-blue-900 mr-2 text-white">JAVACSRIPT</li>
                 <li className="p-2 bg-blue-900 text-white">CSS</li>
               </ul>
+              <div className="flex gap-10">
               <a
+                className="bg-blue-900 text-white mt-4 p-2"
+                href="https://astounding-cajeta-62b531.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Go Live
+              </a>
+
+                 <a
                 className="bg-blue-900 text-white mt-4 p-2"
                 href="https://astounding-cajeta-62b531.netlify.app/"
                 target="_blank"
@@ -182,6 +227,7 @@ const Projects = () => {
               >
                 See Project
               </a>
+              </div>
             </div>
             <img
               src={project4}
