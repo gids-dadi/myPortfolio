@@ -244,8 +244,8 @@ const Projects = () => {
       </div>
 
 
-      <motion.div variants={projectVariant} className="relative ">
-        <div className="mt-32 md:mt-56 text-center">
+      <motion.div variants={projectVariant}>
+        <div className="mt-32 md:mt-56  text-center">
          Check me out on: <SocialMediaIcons />
         
         Want to Reach out?
