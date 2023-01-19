@@ -2,12 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   mode: "jit",
-   theme: {
+  theme: {
     extend: {
       fontFamily: {
-      rowdies: ["Rowdies Display", "serif"],
-      playfair: ["Playfair Display", "serif"],
-      opensans: ["Open Sans", "sans-seriff"],
+        rowdies: ["Rowdies Display", "serif"],
+        playfair: ["Playfair Display", "serif"],
+        opensans: ["Open Sans", "sans-seriff"],
       },
     },
     screens: {
@@ -18,5 +18,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-
