@@ -68,23 +68,26 @@ const Projects = () => {
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyles}>
-              <h4 className="text-2xl font-playfair">
-                Tech in Africa (TiA Summit)
-              </h4>
+              <h6 className="font-playfair">
+                TiA Summit
+              </h6>
 
-              <p className="mt-2 w-[350px]">
-                The project is a webpage. It has been designed for a non-real
+              <p className="mt-[-5px] md:w-auto w-[248px]">
+                The project is a webpage designed for a non-real
                 summit tagged the Tech in Africa (TiA) hosted to highlight the
-                achievemnts and growth of young African tech community through
-                innovation.
+                achievementsof young African tech community 
               </p>
-              <ul className="flex mx-2">
-                <li className=" p-2 bg-blue-900 mr-2 text-white">HTML</li>
-                <li className="p-2 bg-blue-900 text-white">CSS</li>
+              
+
+              
+              <ul className="flex gap-2">
+                <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">HTML</li>
+                <li className="p-[4px]  md:p-2 bg-blue-900 text-white  text-[8px] md:text-[16px]">CSS</li>
               </ul>
-              <div className="flex gap-10">
+
+              <div className="my-2">
               <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className="bg-blue-900 text-white text-[8px] m-2 md:mr-8 p-[4px]  md:p-2 md:text-[16px]"
                 href="https://gids-dadi.github.io/Spiral-Tech-Project"
                 target="_blank"
                 rel="noreferrer"
@@ -93,7 +96,7 @@ const Projects = () => {
               </a>
 
               <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className="bg-blue-900 text-white text-[8px] mt-4 p-[4px]  md:p-2 md:text-[16px]"
                 href="https://github.com/gids-dadi/Spiral-Tech-Project"
                 target="_blank"
                 rel="noreferrer"
@@ -101,32 +104,33 @@ const Projects = () => {
                 See Project
               </a>
               </div>
+
             </div>
             <img
               src={project1}
               alt="projectTitle"
-              className="w-full h-[350px]"
+              className="w-auto h-full py-10"
             />
           </motion.div>
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyles}>
-              <h4 className="text-2xl font-playfair">Space-Travelers-Hub</h4>
+              <h6 className="font-playfair">Space-Travelers-Hub</h6>
 
-              <p className="mt-2 w-[350px]">
+              <p className="mt-2 w-[246px]">
                 The Space-Travelers-Hub is a project that requires using an API
                 to get the Rockets and the missions of the rockets.. The user
                 can also book a number of rockets for some missions and this
                 will be displayed in the profile.
               </p>
-              <ul className="flex mx-2">
-                <li className=" p-2 bg-blue-900 mr-2 text-white">REACT</li>
-                <li className=" p-2 bg-blue-900 mr-2 text-white">REDUX</li>
-                <li className="p-2 bg-blue-900 text-white">CSS</li>
+              <ul className="flex mx-2 gap-2">
+                <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">REACT</li>
+                <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">REDUX</li>
+                <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">CSS</li>
               </ul>
               <div className="flex gap-10">
               <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className="bg-blue-900 text-white text-[8px] m-2 md:mr-8 px-[20px]  md:p-2 md:text-[16px]"
                 href="https://space-travelers-hub-c.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -135,7 +139,7 @@ const Projects = () => {
               </a>
 
                <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className= "bg-blue-900 text-white text-[8px] m-2 md:mr-8 p-[4px]  md:p-2 md:text-[16px]"
                 href="https://github.com/camilevahviraki/Space-Travelers-Hub"
                 target="_blank"
                 rel="noreferrer"
@@ -148,7 +152,7 @@ const Projects = () => {
             <img
               src={project2}
               alt="projectTitle"
-              className="w-full h-[350px]"
+              className="w-auto h-full py-10"
             />
           </motion.div>
 
@@ -157,19 +161,19 @@ const Projects = () => {
             <div className={overlayStyles}>
               <h4 className="text-2xl font-playfair">Math-Magician</h4>
 
-              <p className="mt-2 w-[350px]">
+              <p className="mt-2 w-[246px]">
                 This is a web app to carry out basic Math utilities including an impeded calculator and a page for random quotes about Math for fun. 
 
               </p>
-              <ul className="flex mx-2">
-                <li className=" p-2 bg-blue-900 mr-2 text-white">HTML</li>
-                <li className=" p-2 bg-blue-900 mr-2 text-white">REACT</li>
-                <li className=" p-2 bg-blue-900 mr-2 text-white">JAVACSRIPT</li>
-                <li className="p-2 bg-blue-900 text-white">CSS</li>
+              <ul className="flex mx-2 gap-4">
+                <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">HTML</li>
+                <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">REACT</li>
+                <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">JAVACSRIPT</li>
+                <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">CSS</li>
               </ul>
-              <div className="flex gap-10">
+              <div className="flex gap-8">
               <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className="bg-blue-900 text-white text-[8px] m-4 md:mr-8 px-[10px] md:p-2 md:text-[16px]"
                 href="https://gids-math-magician.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
@@ -179,7 +183,7 @@ const Projects = () => {
 
 
               <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className="bg-blue-900 text-white text-[8px] m-4 px-[10px]  md:p-2 md:text-[16px]"
                 href="https://github.com/gids-dadi/math-magician"
                 target="_blank"
                 rel="noreferrer"
@@ -187,11 +191,12 @@ const Projects = () => {
                 See Project
               </a>
               </div>
+
             </div>
             <img
               src={project3}
               alt="projectTitle"
-              className="w-full h-[350px]"
+              className="w-auto h-full py-10"
             />
           </motion.div>
 
@@ -199,18 +204,18 @@ const Projects = () => {
             <div className={overlayStyles}>
               <h4 className="text-2xl font-playfair">Vehicle App</h4>
 
-              <p className="mt-2 w-[350px]">
+              <p className="mt-2 w-[250px]">
                 The vehicle App is a web App to retrieve information based on given metrics from the API.
               </p>
-              <ul className="flex mx-2">
-                <li className=" p-2 bg-blue-900 mr-2 text-white">HTML</li>
-                <li className=" p-2 bg-blue-900 mr-2 text-white">REACT</li>
-                <li className=" p-2 bg-blue-900 mr-2 text-white">JAVACSRIPT</li>
-                <li className="p-2 bg-blue-900 text-white">CSS</li>
+              <ul className="flex mx-2 gap-4">
+                <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">HTML</li>
+                <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">REACT</li>
+                <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">JAVACSRIPT</li>
+                <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">CSS</li>
               </ul>
               <div className="flex gap-10">
               <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className="bg-blue-900 text-white text-[8px] m-4 md:mr-8 px-[10px]  md:p-2 md:text-[16px]"
                 href="https://astounding-cajeta-62b531.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -219,7 +224,7 @@ const Projects = () => {
               </a>
 
                  <a
-                className="bg-blue-900 text-white mt-4 p-2"
+                className="bg-blue-900 text-white text-[8px] m-4 px-[10px]  md:p-2 md:text-[16px]"
                 href="https://astounding-cajeta-62b531.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -231,13 +236,9 @@ const Projects = () => {
             <img
               src={project4}
               alt="projectTitle"
-              className="w-full h-[350px]"
+              className="w-auto h-full py-10"
             />
           </motion.div>
-
-          {/* <div className="flex justify-center text-center items-center p-10 bg-blue-400 max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
-            SMOOTH USER EXPERIENCE
-          </div> */}
         </motion.div>
 
       </div>

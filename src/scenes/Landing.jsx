@@ -1,7 +1,6 @@
 /* eslint-disable */
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import profilePic from "../assets/pic1.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
@@ -27,7 +26,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-2xl font-playfair text-blue-900">Hey there!  My name is</p>
+          <p className="text-2xl font-playfair text-blue-900 text-center md:text-left">Hey there!  My name is</p>
           <p className="text-8xl font-playfair z-10 text-center md:text-start xs:font-semibold md:font-bold">
            Gideon{" "}
             <span className="xs:relative xs:text-blue-900 xs:font-semibold z-20">
