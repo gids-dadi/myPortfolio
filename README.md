@@ -7,7 +7,7 @@ My personal react portfolio to show my skills, experience and projects.
 - TailwindCss
 
 ## Live Demo
-![Click Here](https://gideondadi.netlify.app/)
+[Click Here](https://gideondadi.netlify.app/)
 
 
 ## Getting Started
