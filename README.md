@@ -1,5 +1,5 @@
 ## My Portfolio
-My personal react portfolio to show my skills
+My personal react portfolio to show my skills, experience and projects.
 
 ## Built With
 
@@ -7,6 +7,7 @@ My personal react portfolio to show my skills
 - TailwindCss
 
 ## Live Demo
+![Click Here](https://gideondadi.netlify.app/)
 
 
 ## Getting Started
