@@ -34,7 +34,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow-400">CONTACT ME</span> TO GET STARTED
+            <span className="text-pink-800">CONTACT ME</span> TO GET STARTED
             <div className="w-4/5 md:w-1/4 h-2 bg-blue-400 absolute right-0 z-[-1] my-10"></div>
           </p>
         </div>
@@ -126,7 +126,7 @@ const Contact = () => {
             )}
 
             <button
-              className="p-5 bg-yellow-500 font-semibold text-blue-900 mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-blue-300 font-semibold text-blue-900 mt-5 hover:bg-red hover:text-white transition duration-500"
               type="submit"
             >
               SEND ME A MESSAGE

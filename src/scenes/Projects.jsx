@@ -39,33 +39,32 @@ const Projects = () => {
         }}
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red-500">PRO</span>JECTS
+          <p className="font-playfair font-semibold text-4xl justify-start">
+            <span className="text-pink-800">PRO</span>JECTS
           </p>
-          <div className="flex justify-center mt-5"></div>
         </div>
 
-        <p className="mt-10 mb-10">
-          Here, I have got a few projects, check them out and see my expertise.
+        <p className="mt-4 mb-10">
+          Here are some of the projects I've worked on
         </p>
       </motion.div>
 
       {/* PROJECTS */}
-      <div className="flex  justify-center md:h-[500px]">
+      <div className="flex justify-center gap-8 md:h-[500px]">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
+          className="sm:grid sm:grid-cols-2 w-3/4"
           variants={container}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
+          {/* <div
             className="flex justify-center text-center items-center p-10 bg-blue-900
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
-          </div>
+          </div> */}
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyles}>
@@ -236,16 +235,16 @@ const Projects = () => {
             />
           </motion.div>
 
-          <div className="flex justify-center text-center items-center p-10 bg-blue-400 max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
+          {/* <div className="flex justify-center text-center items-center p-10 bg-blue-400 max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
             SMOOTH USER EXPERIENCE
-          </div>
+          </div> */}
         </motion.div>
 
       </div>
 
 
       <motion.div variants={projectVariant} className="relative ">
-        <div className="mt-52 text-center">
+        <div className="mt-32 md:mt-56 text-center">
          Check me out on: <SocialMediaIcons />
         
         Want to Reach out?

@@ -42,6 +42,7 @@ function App() {
 
         <Landing setSelectedPage={setSelectedPage} />
       </div>
+
       <div className="w-5/6 mx-auto md:h-full">
         <About />
       </div>

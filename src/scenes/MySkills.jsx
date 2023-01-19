@@ -22,11 +22,11 @@ const Myskills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red-400">SKILLS</span>
+            MY <span className="text-pink-800">SKILLS</span>
           </p>
           <p className="mt-10 mb-7">
             I am skilled in both front-end and back-end using various languages,
-            framework and tools.
+            framework/libraries and tools.
           </p>
         </motion.div>
           </div>
@@ -48,7 +48,7 @@ const Myskills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
-              <h4 className="font-playfair font-semibold text-3xl mt-3">
+              <h4 className="font-playfair font-semibold text-2xl mt-3">
                 LANGUAGES
               </h4>
             </div>
@@ -59,8 +59,6 @@ const Myskills = () => {
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
-            <li>React</li>
-            <li>Redux</li>
             <li>Ruby</li>
           </ul>
         </motion.div>
@@ -80,8 +78,8 @@ const Myskills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
-              <h4 className="font-playfair font-semibold text-3xl mt-3">
-                FRAMEWORK
+              <h4 className="font-playfair font-semibold text-2xl mt-3">
+                FRAMEWORK/LIBRARIES
               </h4>
             </div>
             <div className="w-1/2 md:w-3/4 h-2 bg-blue-400 absolute right-0 z-[-1] "></div>
@@ -89,6 +87,8 @@ const Myskills = () => {
           <ul className="mt-5">
             <li>Bootstrap</li>
             <li>Ruby on Rails</li>
+              <li>React</li>
+            <li>Redux</li>
             <li>ExpressJs</li>
             <li>TailwindCss</li>
             <li>RSpec</li>
@@ -110,7 +110,7 @@ const Myskills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">TOOLS</p>
+              <p className="font-playfair font-semibold text-2xl mt-3">TOOLS</p>
             </div>
             <div className="w-1/2 md:w-3/4 h-2 bg-blue-400 absolute right-0 z-[-1] "></div>
           </div>
@@ -118,7 +118,7 @@ const Myskills = () => {
             <li>Gitlab</li>
             <li>Github</li>
             <li>CodeKit</li>
-            <li>Code</li>
+            <li>Console</li>
           </ul>
         </motion.div>
       </div>

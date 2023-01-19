@@ -5,8 +5,9 @@ module.exports = {
    theme: {
     extend: {
       fontFamily: {
-        playfair: ["Playfair Display", "serif"],
-        opensans: ["Open Sans", "sans-seriff"],
+      rowdies: ["Rowdies Display", "serif"],
+      playfair: ["Playfair Display", "serif"],
+      opensans: ["Open Sans", "sans-seriff"],
       },
     },
     screens: {
