@@ -202,21 +202,20 @@ const Projects = () => {
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyles}>
-              <h4 className="text-2xl font-playfair">Vehicle App</h4>
+              <h4 className="text-2xl font-playfair">Awesome Books</h4>
 
               <p className="mt-2 w-[250px]">
-                The vehicle App is a web App to retrieve information based on given metrics from the API.
+               Awesome Book Project using ES6 Syntax - A list of books project with form input to add the title and author of user's personal awesome books.
               </p>
               <ul className="flex mx-2 gap-4">
                 <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">HTML</li>
-                <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">REACT</li>
                 <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">JAVACSRIPT</li>
                 <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">CSS</li>
               </ul>
               <div className="flex gap-4">
               <a
                 className="bg-blue-900 text-white text-[8px] m-4 md:mr-8 px-[14px]  md:p-2 md:text-[16px]"
-                href="https://astounding-cajeta-62b531.netlify.app/"
+                href="https://gids-dadi.github.io/ES6_Awesome_Books/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -225,7 +224,7 @@ const Projects = () => {
 
                  <a
                 className="bg-blue-900 text-white text-[8px] m-4 px-[14px]  md:p-2 md:text-[16px]"
-                href="https://astounding-cajeta-62b531.netlify.app/"
+                href="https://github.com/gids-dadi/ES6_Awesome_Books"
                 target="_blank"
                 rel="noreferrer"
               >
