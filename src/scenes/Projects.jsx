@@ -117,7 +117,7 @@ const Projects = () => {
             <div className={overlayStyles}>
               <h6 className="font-playfair">Space-Travelers-Hub</h6>
 
-              <p className="mt-2 w-[246px]">
+              <p className="w-[246px]">
                 The Space-Travelers-Hub is a project that requires using an API
                 to get the Rockets and the missions of the rockets.. The user
                 can also book a number of rockets for some missions and this
@@ -128,9 +128,9 @@ const Projects = () => {
                 <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">REDUX</li>
                 <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">CSS</li>
               </ul>
-              <div className="flex gap-10">
+              <div className="flex gap-4">
               <a
-                className="bg-blue-900 text-white text-[8px] m-2 md:mr-8 px-[20px]  md:p-2 md:text-[16px]"
+                className="bg-blue-900 text-white text-[8px] m-2 md:mr-8 px-[14px]  md:p-2 md:text-[16px]"
                 href="https://space-travelers-hub-c.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -139,7 +139,7 @@ const Projects = () => {
               </a>
 
                <a
-                className= "bg-blue-900 text-white text-[8px] m-2 md:mr-8 p-[4px]  md:p-2 md:text-[16px]"
+                className= "bg-blue-900 text-white text-[8px] m-2 md:mr-8 px-[14px]  md:p-2 md:text-[16px]"
                 href="https://github.com/camilevahviraki/Space-Travelers-Hub"
                 target="_blank"
                 rel="noreferrer"
@@ -171,9 +171,9 @@ const Projects = () => {
                 <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">JAVACSRIPT</li>
                 <li className="p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">CSS</li>
               </ul>
-              <div className="flex gap-8">
+              <div className="flex gap-4">
               <a
-                className="bg-blue-900 text-white text-[8px] m-4 md:mr-8 px-[10px] md:p-2 md:text-[16px]"
+                className="bg-blue-900 text-white text-[8px] m-4 md:mr-8 px-[14px] md:p-2 md:text-[16px]"
                 href="https://gids-math-magician.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
@@ -183,7 +183,7 @@ const Projects = () => {
 
 
               <a
-                className="bg-blue-900 text-white text-[8px] m-4 px-[10px]  md:p-2 md:text-[16px]"
+                className="bg-blue-900 text-white text-[8px] m-4 px-[14px]  md:p-2 md:text-[16px]"
                 href="https://github.com/gids-dadi/math-magician"
                 target="_blank"
                 rel="noreferrer"
@@ -196,7 +196,7 @@ const Projects = () => {
             <img
               src={project3}
               alt="projectTitle"
-              className="w-auto h-full py-10"
+              className="w-auto h-full py-16"
             />
           </motion.div>
 
@@ -213,9 +213,9 @@ const Projects = () => {
                 <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">JAVACSRIPT</li>
                 <li className= "p-[4px] md:p-2 bg-blue-900  text-white text-[8px] md:text-[16px]">CSS</li>
               </ul>
-              <div className="flex gap-10">
+              <div className="flex gap-4">
               <a
-                className="bg-blue-900 text-white text-[8px] m-4 md:mr-8 px-[10px]  md:p-2 md:text-[16px]"
+                className="bg-blue-900 text-white text-[8px] m-4 md:mr-8 px-[14px]  md:p-2 md:text-[16px]"
                 href="https://astounding-cajeta-62b531.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -224,7 +224,7 @@ const Projects = () => {
               </a>
 
                  <a
-                className="bg-blue-900 text-white text-[8px] m-4 px-[10px]  md:p-2 md:text-[16px]"
+                className="bg-blue-900 text-white text-[8px] m-4 px-[14px]  md:p-2 md:text-[16px]"
                 href="https://astounding-cajeta-62b531.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -236,7 +236,7 @@ const Projects = () => {
             <img
               src={project4}
               alt="projectTitle"
-              className="w-auto h-full py-10"
+              className="w-auto h-full py-16"
             />
           </motion.div>
         </motion.div>

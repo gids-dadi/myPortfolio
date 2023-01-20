@@ -1055,6 +1055,36 @@ video {
   padding-right: 1.75rem;
 }
 
+.px-\[4px\]{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.px-\[0px\]{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-\[16px\]{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.px-\[14px\]{
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.px-\[1px\]{
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pb-16{
   padding-bottom: 4rem;
 }
